@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+/* total body style */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(228, 235, 237);
+  text-size-adjust: 10px;
+}
+
+
+/* nav bar style */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(228, 232, 237);
+}
+
+#navbar a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px 24px;
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+#navbar a.right {
+  float: right;
+  padding: 20px 18x;
+  border: solid rgb(rgb(232, 19, 19));
+  border-radius: 8px;
+}
+
+
+/* button previus and next styles */
+.buttonp{
+  width: 10%;
+  padding-right: 5px;
+
+}
+/* button outer */
+.btn1{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+}
+
+/* button previus and next styles */
+
+.buttonn{
+  width: 9%;
+
+}
+.btn2{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+
+
+
+#navbar a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(205, 212, 241);
+  border: solid rgb(55, 50, 50);
+}
+
+
+.outerpro{
+  padding-left: 8%;
+  padding-top: 2%;
+  align-items: center;
+  width: 80%;
+}
+
+/* table outer div style */
+.outer{
+  width: 8px;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(247, 247, 247);
+  border: solid rgb(166, 163, 163);
+  border-radius: 4px;
+  align-items: center;
+  display : table-cell;
+}
+
+.inner{
+  width: 340px;
+  padding: 8px;
+}
+
+/* pic styles */
+.pic{
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  width: 225px;
+  height: 150px;
+}
+.pic:hover {
+  box-shadow: 0 0 2px 1px rgba(103, 156, 225, 0.235);
+}
+
+#pic2{
+  padding-left: 25px;
+}
+
+#text1, a {
+  text-decoration: none;
+  padding-left: 34px;
+  color: rgb(24, 17, 123);
+}
+
+/* page Numbers */
+.dot{
+  height: 17px;
+  width: 17px; 
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+ 
+}
+#dotspecial{
+  height: 17px;
+  width: 17px; 
+  background-color: rgb(8, 8, 8);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+.pengination{
+  padding: 40px;
+  padding-left: 50%;
+}
+
+
+#nav{
+  text-align:center;
+  padding-top: 50px;
+}
+
+#nav1{
+  margin: 0; 
+  display: inline;
+  padding: 10px;
+}
+
+#nav2{
+  margin: 0; display: inline;
+}
+
+#nav3{
+  margin: 0; display: inline;
+}
