@@ -24,7 +24,10 @@ body {
   display: block;
   text-align: center;
 }
-
+#img{
+  width: 100px;
+  padding: 8px;
+}
 #navbar a.right {
   float: right;
   padding: 20px 18x;
