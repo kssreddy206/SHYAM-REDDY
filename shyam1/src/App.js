@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
 <Link to="/Home" >Home</Link>
-
+wdwas
 <Routes>
   <Route path="/Profile/:id" element={<Profile/>}  />
   <Route path="/Home" element={<Home/>}  />
